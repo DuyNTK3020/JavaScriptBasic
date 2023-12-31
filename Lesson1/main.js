@@ -1,0 +1,1 @@
+alert('Hi JavaScript') // Hiển thị thông báo
