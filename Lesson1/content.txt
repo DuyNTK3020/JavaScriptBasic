@@ -1,0 +1,53 @@
+Khai báo biến var, let
+
+Cách comment (3 cách):
+    //
+    /*
+    */
+    /**
+    *
+    */
+
+Built-in functions
+    1. arlert
+    2. console : in trong cửa sổ console
+    3. confirm : hiển thị hộp thoại xác nhận
+    4. prompt : hiển thị hộp thoại có input
+    5. setTimeout : cho đoạn code chạy sau 1 khoảng thời gian đơn vị ms
+    6. setInterval : cho đoạn code chạy lặp lại sau 1 khoảng thời gian
+
+Toán tử số học: +, - , *, /, **(lũy thừa), %, ++, --
+
+Toán tử nối chuỗi: string + string
+
+Primitive Data Types:
+    Number: Số trong JavaScript, có thể là số nguyên hoặc số thập phân.
+    String: Chuỗi ký tự, được bao quanh bởi dấu ngoặc đơn hoặc ngoặc kép.
+    Boolean: Giá trị logic, chỉ có thể là true hoặc false.
+    Undefined: Biến chưa được gán giá trị hoặc function không có giá trị trả về.
+    Null: Biến không chứa giá trị hoặc được sử dụng để chỉ định rằng không có giá trị.
+    Symbol (từ ES6): Giá trị độc nhất được sử dụng cho các thuộc tính của đối tượng, đảm bảo tính duy nhất của các thuộc tính.
+
+Complex Data Types:
+    Object: Đại diện cho một đối tượng, gồm các cặp key-value.
+    Array: Một loại đặc biệt của đối tượng, lưu trữ nhiều giá trị trong một biến.
+    Function: Một loại đặc biệt của đối tượng, có thể gọi để thực thi một tác vụ cụ thể.
+    Date: Đại diện cho thời gian và ngày tháng trong JavaScript.
+
+ES6 Data Types:
+    Map: Dạng cấu trúc dữ liệu lưu trữ key-value, nơi key có thể là bất kỳ kiểu dữ liệu nào.
+    Set: Tập hợp các giá trị duy nhất bất kỳ.
+    Promise: Đại diện cho một giá trị chưa có sẵn, nhưng có thể được trả về trong tương lai.
+    Proxy: Cho phép tạo ra một đối tượng "proxy" để theo dõi các hoạt động trên đối tượng gốc.
+
+Truthy - to bool is true
+not Falsy
+
+Falsy - to bool is false
+Trong Javascript có 6 giá trị sau được coi là Falsy:
+    false
+    0 (số không)
+    '' or "" (chuỗi rỗng)
+    null
+    undefined
+    NaN
