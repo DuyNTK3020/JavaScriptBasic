@@ -9,7 +9,7 @@ Cách comment (3 cách):
     */
 
 Built-in functions
-    1. arlert
+    1. arlert : hiển thị thông báos
     2. console : in trong cửa sổ console
     3. confirm : hiển thị hộp thoại xác nhận
     4. prompt : hiển thị hộp thoại có input

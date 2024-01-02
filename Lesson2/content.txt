@@ -1,0 +1,18 @@
+Function
+    - arguments chỉ tồn tại trong hàm
+    - Khi đặt 2 function trùng tên thì function sau đè function trước
+
+Các loại function
+    1. Declaration function
+    2. Expression function
+    3. Arrow function
+
+JavaScript string methods:
+    1. length
+    2. indexOf : trả về vị trí chuỗi tìm được đầu tiên
+    3. lastIndexOf : giống indexOf nhưng tìm từ dưới lên
+    4. slice(start, end) : cắt chuỗi
+    5. replace : thay thế chuỗi 
+    6. toUpperCase: viết in hoa hết
+    7. trim : xóa dấu cách đầu cuối
+    8. split: cắt thành mảng
