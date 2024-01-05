@@ -44,3 +44,8 @@ let language = 'JS, HTML, CSS'
 console.log(language.split(', '));
 
 console.log(fullName.charAt(10));
+
+let num = 123.45678;
+
+console.log(typeof(num.toString()));
+console.log(num.toFixed(2));

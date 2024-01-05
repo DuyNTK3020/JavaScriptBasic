@@ -16,3 +16,7 @@ JavaScript string methods:
     6. toUpperCase: viết in hoa hết
     7. trim : xóa dấu cách đầu cuối
     8. split: cắt thành mảng
+
+JavaScript number methods:
+    toString : chuyển sang chuỗi
+    toFixed(n) : Lấy đến n dấu phẩy

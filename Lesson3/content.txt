@@ -1,0 +1,10 @@
+JavaScript Array methods
+    1. toString : Chuyển về chuỗi và chèn vào dấu ","
+    2. join('a') : Chèn a vào giữa các phần tử
+    3. pop : Xóa phần tử cuối mảng và trả phần tử cuối mảng
+    4. push : Thêm phần tử vào cuối mảng
+    5. shift : Xóa phần tử đầu mảng và trả phần tử đầu mảng
+    6. unshift : Thêm phần tử vào đầu mảng
+    7. splice(start, count, 'String') : Từ start xóa đi count phần tử và chèn vào vị trí start String
+    8. concat : Nối 2 arr
+    9. slice(start, end) : cắt một số phần tử start và end
