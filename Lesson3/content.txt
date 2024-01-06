@@ -8,3 +8,10 @@ JavaScript Array methods
     7. splice(start, count, 'String') : Từ start xóa đi count phần tử và chèn vào vị trí start String
     8. concat : Nối 2 arr
     9. slice(start, end) : cắt một số phần tử start và end
+    10. forEach() : lặp qua phần tử của mảng
+    11. every() : lặp qua phần tử để kiểm tra thỏa mãn dk không
+    12. some() : khác every là chỉ cần 1 dk thỏa mãn là trả về đúng
+    13. find() : tìm phần tử thỏa mãn dk
+    14. filter() : tìm tất cả ptu thỏa mãn dk
+    15. map() : thay đổi giá trị value của key của tất cát phần tử
+    16.reduce(): trả về giá trị duy nhất

@@ -1,0 +1,5 @@
+HTML DOM
+Có 3 thành phần cơ bản:
+    1. Element
+    2. Attribute
+    3. Text

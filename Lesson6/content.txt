@@ -1,0 +1,9 @@
+JSON
+    Là một định dạng dữ liệu (chuỗi)
+    Number, Boolean, Null, Array, Object
+=> Chuyển đổi sang dữ liệu khác    
+
+Promise
+    - Sync
+    - Async
+    - then(), catch(), finally()

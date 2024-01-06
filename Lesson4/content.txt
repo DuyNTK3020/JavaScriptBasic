@@ -1,0 +1,6 @@
+// Loop
+    1. for - lặp với dk đúng
+    2. for/in = lặp qua key của đối tượng
+    3. for/of - lặp qua value của đối tượng
+    4. while
+    5. do/while
