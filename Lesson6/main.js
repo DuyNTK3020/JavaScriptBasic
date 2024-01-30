@@ -2,8 +2,10 @@
 var json = '{"name":"khanhDuy","age":20}';
 
 var a = "true";
+// Chuyển từ json sang javascript types
 console.log(JSON.parse(json));
 
+// Chuyển từ javascript types sang json
 console.log(JSON.stringify(JSON.parse(json)));
 
 setTimeout(function () {
