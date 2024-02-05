@@ -13,7 +13,7 @@ setTimeout(function () {
 }, 0);
 // setTimeout là tác vụ bất động bộ (async)
 
-console.log("Dòng này sẽ in ra trước"); // Đây là tác vụ đồng bộ (sync)\
+console.log("Dòng này sẽ in ra trước"); // Đây là tác vụ đồng bộ (sync)
 
 var promise = new Promise(
   // Executor
@@ -35,6 +35,33 @@ promise
   .then(function (courses) {
     // console.log("Thành công");
     console.log(courses);
+  })
+  .catch(function () {
+    console.log("Thất bại");
+  })
+  .finally(function () {
+    console.log("Đang xử lý");
+  });
+
+//chain
+var promise = new Promise(function (resolve, reject) {
+  // Logic
+  // Thành công : resolve()
+  // Thất bại : reject()
+  resolve();
+});
+
+promise
+  .then(function () {
+    return 1;
+  })
+  .then(function (data) {
+    console.log(data);
+    return 2;
+  })
+  .then(function (data) {
+    console.log(data);
+    return 3;
   })
   .catch(function () {
     console.log("Thất bại");
