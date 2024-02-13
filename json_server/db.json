@@ -1,0 +1,14 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "name": "Kien thuc co ban tong quan cho nguoi moi bat dau",
+      "description": "Kien thuc co ban ......."
+    },
+    {
+        "id": "2",
+        "name": "Kien thuc co ban tong quan cho nguoi moi bat dau",
+        "description": "Kien thuc co ban ......."
+      }
+  ]
+}
