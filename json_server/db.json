@@ -1,14 +1,9 @@
 {
   "courses": [
     {
-      "id": "1",
-      "name": "Kien thuc co ban tong quan cho nguoi moi bat dau",
-      "description": "Kien thuc co ban ......."
-    },
-    {
-        "id": "2",
-        "name": "Kien thuc co ban tong quan cho nguoi moi bat dau",
-        "description": "Kien thuc co ban ......."
-      }
+      "id": "f6bc",
+      "name": "Python Basics - Python Cơ Bản",
+      "description": "Python là một ngôn ngữ lập trình bậc cao cho các mục đích lập trình đa năng. Python được thiết kế với ưu điểm mạnh là dễ đọc, dễ học và dễ nhớ. Python là ngôn ngữ có hình thức rất sáng sủa, cấu trúc rõ ràng, thuận tiện cho người mới học lập trình và là ngôn ngữ lập trình dễ học. Cấu trúc của Python còn cho phép người sử dụng viết mã lệnh với số lần gõ phím tối thiểu."
+    }
   ]
 }
