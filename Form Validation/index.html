@@ -42,6 +42,16 @@
           <button class="form-submit">Đăng ký</button>
         </form>
         <script src="./validator.js"></script>
+        <script>
+            // Mong muốn
+            Validator({
+                form:'#form-1',
+                rules:[
+                    Validator.isRequired('#fullname'),
+                    Validator.isRequired('#email'),
+                ]
+            })
+        </script>
       </div>
 </body>
 </html>
