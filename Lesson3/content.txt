@@ -8,10 +8,103 @@ JavaScript Array methods
     7. splice(start, count, 'String') : Từ start xóa đi count phần tử và chèn vào vị trí start String
     8. concat : Nối 2 arr
     9. slice(start, end) : cắt một số phần tử start và end
-    10. forEach() : lặp qua phần tử của mảng
-    11. every() : lặp qua phần tử để kiểm tra thỏa mãn dk không
-    12. some() : khác every là chỉ cần 1 dk thỏa mãn là trả về đúng
-    13. find() : tìm phần tử thỏa mãn dk
-    14. filter() : tìm tất cả ptu thỏa mãn dk
-    15. map() : thay đổi giá trị value của key của tất cát phần tử
-    16.reduce(): trả về giá trị duy nhất
+
+    
+## Giải thích chi tiết về các hàm forEach(), every(), some(), find(), filter(), map() và reduce() trong JavaScript:
+
+**1. forEach():**
+
+* Hàm `forEach()` được sử dụng để lặp qua từng phần tử của mảng và thực hiện một hàm callback cho mỗi phần tử.
+* Hàm callback nhận hai tham số:
+    * `currentValue`: Giá trị của phần tử hiện tại đang được lặp qua.
+    * `index`: Vị trí (index) của phần tử hiện tại trong mảng.
+* Hàm `forEach()` không trả về giá trị nào.
+
+**Ví dụ:**
+
+```javascript
+const arr = [1, 2, 3, 4, 5];
+
+arr.forEach((item, index) => {
+  console.log(`Phần tử thứ ${index} có giá trị là ${item}`);
+});
+```
+
+**2. every():**
+
+* Hàm `every()` được sử dụng để kiểm tra xem tất cả các phần tử trong mảng có thỏa mãn một điều kiện cho trước hay không.
+* Hàm `every()` nhận một hàm callback làm tham số.
+* Hàm callback nhận hai tham số:
+    * `currentValue`: Giá trị của phần tử hiện tại đang được lặp qua.
+    * `index`: Vị trí (index) của phần tử hiện tại trong mảng.
+* Hàm `every()` trả về giá trị `true` nếu tất cả các phần tử trong mảng đều thỏa mãn điều kiện, và trả về `false` nếu có ít nhất một phần tử không thỏa mãn.
+
+**Ví dụ:**
+
+```javascript
+const arr = [1, 2, 3, 4, 5];
+
+const isEven = (num) => num % 2 === 0;
+
+const isAllEven = arr.every(isEven);
+
+console.log(isAllEven); // false
+```
+
+**3. some():**
+
+* Hàm `some()` được sử dụng để kiểm tra xem có ít nhất một phần tử trong mảng thỏa mãn một điều kiện cho trước hay không.
+* Hàm `some()` nhận một hàm callback làm tham số.
+* Hàm callback nhận hai tham số:
+    * `currentValue`: Giá trị của phần tử hiện tại đang được lặp qua.
+    * `index`: Vị trí (index) của phần tử hiện tại trong mảng.
+* Hàm `some()` trả về giá trị `true` nếu có ít nhất một phần tử trong mảng thỏa mãn điều kiện, và trả về `false` nếu không có phần tử nào thỏa mãn.
+
+**Ví dụ:**
+
+```javascript
+const arr = [1, 2, 3, 4, 5];
+
+const isEven = (num) => num % 2 === 0;
+
+const isSomeEven = arr.some(isEven);
+
+console.log(isSomeEven); // true
+```
+
+**4. find():**
+
+* Hàm `find()` được sử dụng để tìm kiếm phần tử đầu tiên trong mảng thỏa mãn một điều kiện cho trước.
+* Hàm `find()` nhận một hàm callback làm tham số.
+* Hàm callback nhận hai tham số:
+    * `currentValue`: Giá trị của phần tử hiện tại đang được lặp qua.
+    * `index`: Vị trí (index) của phần tử hiện tại trong mảng.
+* Hàm `find()` trả về giá trị của phần tử đầu tiên thỏa mãn điều kiện, hoặc trả về `undefined` nếu không tìm thấy phần tử nào thỏa mãn.
+
+**Ví dụ:**
+
+```javascript
+const arr = [1, 2, 3, 4, 5];
+
+const foundItem = arr.find((item) => item === 3);
+
+console.log(foundItem); // 3
+```
+
+**5. filter():**
+
+* Hàm `filter()` được sử dụng để tạo một mảng mới gồm các phần tử trong mảng ban đầu thỏa mãn một điều kiện cho trước.
+* Hàm `filter()` nhận một hàm callback làm tham số.
+* Hàm callback nhận hai tham số:
+    * `currentValue`: Giá trị của phần tử hiện tại đang được lặp qua.
+    * `index`: Vị trí (index) của phần tử hiện tại trong mảng.
+* Hàm `filter()` trả về một mảng mới gồm các phần tử thỏa mãn điều kiện.
+
+**Ví dụ:**
+
+```javascript
+const arr = [1, 2, 3, 4, 5];
+
+const filteredArr = arr.filter((item) => item % 2 === 0);
+
+console
